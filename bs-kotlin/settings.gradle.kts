@@ -1,3 +1,9 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenLocal()
+    }
+}
 plugins {
     id("com.gradle.enterprise") version("3.7.1")
 }
@@ -10,5 +16,4 @@ gradleEnterprise {
 }
 
 rootProject.name = "bs-kotlin"
-includeBuild("../tag-plugin")
 include("app", "list", "utilities")
