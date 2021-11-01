@@ -4,6 +4,7 @@
 
 plugins {
     id("bs.kotlin.java-library-conventions")
+    id("tag.plugin.greeting")
 }
 
 val buildScan = rootProject.extensions.getByName("buildScan") as com.gradle.scan.plugin.BuildScanExtension

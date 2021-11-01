@@ -4,6 +4,7 @@
 
 plugins {
     id 'bs.groovy.java-library-conventions'
+    id 'tag.plugin.greeting'
 }
 
 buildScan.tag("SUBPROJECT_BUILD")
