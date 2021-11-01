@@ -1,0 +1,1 @@
+buildScan.tag("ROOTPROJECT_BUILD")
