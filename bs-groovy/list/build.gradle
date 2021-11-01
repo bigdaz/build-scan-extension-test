@@ -5,3 +5,5 @@
 plugins {
     id 'bs.groovy.java-library-conventions'
 }
+
+buildScan.tag("SUBPROJECT_BUILD")
