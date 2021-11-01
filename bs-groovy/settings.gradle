@@ -10,4 +10,5 @@ gradleEnterprise {
 }
 
 rootProject.name = 'bs-groovy'
+includeBuild('../tag-plugin')
 include('app', 'list', 'utilities')
